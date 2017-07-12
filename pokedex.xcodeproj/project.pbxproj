@@ -14,6 +14,7 @@
 		242AD0911F1683F5008267D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242AD08F1F1683F5008267D4 /* LaunchScreen.storyboard */; };
 		242AD09C1F1683F5008267D4 /* pokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AD09B1F1683F5008267D4 /* pokedexTests.swift */; };
 		242AD0A71F1683F5008267D4 /* pokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AD0A61F1683F5008267D4 /* pokedexUITests.swift */; };
+		24FD54AE1F1687DB002A29AF /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 24FD54AD1F1687DB002A29AF /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		242AD0A21F1683F5008267D4 /* pokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242AD0A61F1683F5008267D4 /* pokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexUITests.swift; sourceTree = "<group>"; };
 		242AD0A81F1683F5008267D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FD54AD1F1687DB002A29AF /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				242AD0861F1683F5008267D4 /* AppDelegate.swift */,
+				24FD54AD1F1687DB002A29AF /* pokemon.csv */,
 				242AD0881F1683F5008267D4 /* ViewController.swift */,
 				242AD08A1F1683F5008267D4 /* Main.storyboard */,
 				242AD08D1F1683F5008267D4 /* Assets.xcassets */,
@@ -237,6 +240,7 @@
 			files = (
 				242AD0911F1683F5008267D4 /* LaunchScreen.storyboard in Resources */,
 				242AD08E1F1683F5008267D4 /* Assets.xcassets in Resources */,
+				24FD54AE1F1687DB002A29AF /* pokemon.csv in Resources */,
 				242AD08C1F1683F5008267D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +520,7 @@
 				242AD0AD1F1683F5008267D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242AD0AE1F1683F5008267D4 /* Build configuration list for PBXNativeTarget "pokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				242AD0B01F1683F5008267D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242AD0B11F1683F5008267D4 /* Build configuration list for PBXNativeTarget "pokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				242AD0B31F1683F5008267D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
